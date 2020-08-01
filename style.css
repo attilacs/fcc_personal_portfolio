@@ -45,16 +45,8 @@ a.active i {
 }
 
 .contact-links a {
-    animation-duration: .8s;
-    animation-iteration-count: infinite;
-    animation-name: move;
     color: #D4E0F7;
     padding: .25rem .5rem;
-}
-
-.contact-links a:hover {
-    position: relative;
-    top: 0;
 }
 
 #contact-text {
@@ -187,6 +179,15 @@ p {
 }
 
 @media only screen and (min-width: 1000px) {
+    .contact-links a {
+        animation-duration: .8s;
+        animation-iteration-count: infinite;
+        animation-name: move;
+    }
+    .contact-links a:hover {
+        position: relative;
+        top: 0;
+    }
     #projects {
         padding: 4.25rem 5vw .5rem;
     }
