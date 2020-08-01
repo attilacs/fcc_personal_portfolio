@@ -1,11 +1,11 @@
-function myFunction() {
-    var x = document.getElementById("navbar");
-    var y = document.getElementById("icon");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-        y.className += " active";
+function hamburgerMenu() {
+    var navbar = document.querySelector("#navbar");
+    var icon = document.querySelector("#icon");
+    if (navbar.className === "topnav") {
+        navbar.className += " responsive";
+        icon.className += " active";
     } else {
-        x.className = "topnav";
-        y.className = "";
+        navbar.className = "topnav";
+        icon.className = "";
     }
 }
